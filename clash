@@ -5,111 +5,199 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 日本4|杭州入口|原生|NF|×0.5, server: mhz.shanjun.me, port: 44643, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: mhz.shanjun.me, skip-cert-verify: true, udp: true}
-  - {name: 香港11|广港隧道|原生|×1, server: gz3.mimon.cc, port: 22934, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 台湾3|湘港隧道|原生|NF|×1, server: cs2.mimon.cc, port: 28446, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 新加坡2|湘港隧道|×0.8, server: cs2.mimon.cc, port: 44605, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 香港4|杭州入口|原生|×1, server: hzcm.mimon.cc, port: 41139, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: hzcm.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public), server: zz.bbxy.cloud, port: 48888, type: vmess, uuid: 6e83ae62-1771-41be-86eb-816fbdc8b701, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /doxjp02, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 香港3|广港隧道|原生|×1, server: gz3.mimon.cc, port: 24661, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 香港9|长沙入口|原生|×1, server: cs2.mimon.cc, port: 12390, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: zz.bbxy.cloud, port: 38887, type: vmess, uuid: 6a2aadba-152b-36eb-84db-de2df96c93d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /linjp1, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 2, server: zz.bbxy.cloud, port: 38887, type: vmess, uuid: 6a2aadba-152b-36eb-84db-de2df96c93d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jgwxjp, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 新加坡1|杭港隧道|×0.8, server: hzhk.mimon.cc, port: 44601, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: hzhk.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 香港(绿头外网集团)(Public), server: zz.bbxy.cloud, port: 38887, type: vmess, uuid: 6a2aadba-152b-36eb-84db-de2df96c93d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /awshk, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 韩国1|杭州入口|原生|NF|×0.5, server: mhz.shanjun.me, port: 25535, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: mhz.shanjun.me, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 3, server: zz.bbxy.cloud, port: 38887, type: vmess, uuid: 6a2aadba-152b-36eb-84db-de2df96c93d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /doxjp2, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
   - {name: 香港14|湘港隧道|原生|Disney+|×1, server: cs2.mimon.cc, port: 12025, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
   - {name: 香港12|湘港隧道|原生|Disney+|×1, server: cs2.mimon.cc, port: 25700, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 日本5|杭州入口|原生|NF|×0.5, server: mhz.shanjun.me, port: 44644, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: mhz.shanjun.me, skip-cert-verify: true, udp: true}
-  - {name: 香港5|湘港隧道|原生|×1, server: cs2.mimon.cc, port: 50275, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 香港2|广港隧道|原生|NF|×1, server: gz3.mimon.cc, port: 65335, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 香港9|长沙入口|原生|×1, server: cs2.mimon.cc, port: 12390, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 台湾1|广港隧道|原生|NF|×1, server: gz3.shanjun.me, port: 44601, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.shanjun.me, skip-cert-verify: true, udp: true}
-  - {name: 香港16|广港隧道|原生|Disney+|×1, server: gz2.mimon.cc, port: 27566, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz2.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 日本7|湘日隧道|原生|NF|×1, server: cs2.mimon.cc, port: 58744, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 香港11|皖港隧道|原生|×1, server: ahhk.mimon.cc, port: 12546, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: ahhk.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 4, server: zz.bbxy.cloud, port: 48888, type: vmess, uuid: 6e83ae62-1771-41be-86eb-816fbdc8b701, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /doxjp04, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
   - {name: 香港10|湘港隧道|原生|×1, server: cs2.mimon.cc, port: 27807, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 香港13|广港隧道|原生|×1, server: gz3.shanjun.me, port: 45248, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.shanjun.me, skip-cert-verify: true, udp: true}
-  - {name: 日本6|长沙入口|原生|NF|×0.5, server: cs.mimon.cc, port: 58744, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 美国1|湘港隧道|原生|NF|×1, server: cs2.mimon.cc, port: 61275, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 日本6|江西入口|原生|NF|×0.5, server: jx.mimon.cc, port: 45565, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: jx.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 韩国1|杭州入口|原生|NF|×0.5, server: mhz.shanjun.me, port: 25535, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: mhz.shanjun.me, skip-cert-verify: true, udp: true}
-  - {name: V1-台湾多台负载均衡中继A1_5x_9, server: in01.dns2333.xyz, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in01.dns2333.xyz}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 2, server: zz.bbxy.cloud, port: 38887, type: vmess, uuid: 6a2aadba-152b-36eb-84db-de2df96c93d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hkt1, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 香港5|湘港隧道|原生|×1, server: cs2.mimon.cc, port: 50275, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 美国(绿头外网集团)(Public), server: zz.bbxy.cloud, port: 48888, type: vmess, uuid: 6e83ae62-1771-41be-86eb-816fbdc8b701, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cere01, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 美国3|原生|NF|×0.3, server: gzyd.anoob.icu, port: 55432, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gzyd.anoob.icu, skip-cert-verify: true, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 2, server: zz.bbxy.cloud, port: 48888, type: vmess, uuid: 6e83ae62-1771-41be-86eb-816fbdc8b701, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /cere03, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 加拿大(绿头外网集团)(Public), server: zz.bbxy.cloud, port: 48888, type: vmess, uuid: 6e83ae62-1771-41be-86eb-816fbdc8b701, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /canada03, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 马来西亚(绿头外网集团)(Public), server: zz.bbxy.cloud, port: 48888, type: vmess, uuid: 6e83ae62-1771-41be-86eb-816fbdc8b701, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mlxy008, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 台湾1|广港隧道|原生|NF|×1, server: gz3.shanjun.me, port: 44601, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.shanjun.me, skip-cert-verify: true, udp: true}
+  - {name: 日本4|赣日隧道|原生|NF|×1.5, server: cn2.anoob.icu, port: 44643, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cn2.anoob.icu, skip-cert-verify: true, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 2, server: zz.bbxy.cloud, port: 38887, type: vmess, uuid: 6a2aadba-152b-36eb-84db-de2df96c93d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ryjp2, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
   - {name: 香港15|广港隧道|原生|Disney+|×1, server: gz2.mimon.cc, port: 12728, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz2.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public), server: zz.bbxy.cloud, port: 38887, type: vmess, uuid: 6a2aadba-152b-36eb-84db-de2df96c93d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hinet3, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 新加坡-2|直连|解锁|2x|TR, server: sg-aws-2.licom.ga, port: 20001, type: trojan, password: ca706509-c328-4949-9d14-2ff2e14eab62, sni: sg-aws-2.licom.ga, skip-cert-verify: true, udp: true}
+  - {name: 中国_YouTube：8度科技, server: tunnel-jp-a-01.xncloud.xyz, port: 204, type: vmess, uuid: bf6305b0-ce74-37e1-af88-c05637d8d94c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-04.xncloud.xyz}, udp: true}
+  - {name: 中国_YouTube：8度科技 2, server: tunnel-jp-a-01.xncloud.xyz, port: 203, type: vmess, uuid: bf6305b0-ce74-37e1-af88-c05637d8d94c, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: mf-aws-jp-03.xncloud.xyz}, udp: true}
+  - {name: 美国(绿头外网集团)(Public) 3, server: zz.bbxy.cloud, port: 38887, type: vmess, uuid: 6a2aadba-152b-36eb-84db-de2df96c93d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /bgpus2, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 3, server: zz.bbxy.cloud, port: 48888, type: vmess, uuid: 6e83ae62-1771-41be-86eb-816fbdc8b701, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ryjp02, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 日本(绿头外网集团)(Public) 4, server: zz.bbxy.cloud, port: 38887, type: vmess, uuid: 6a2aadba-152b-36eb-84db-de2df96c93d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ryjp1, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
   - {name: 新加坡 |AS|1G|G7, server: sg7.bpyun.live, port: 443, type: vmess, uuid: e120ead0-a41f-3140-af59-8de91cbf3c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: sg7.bpyun.live}, udp: true}
-  - {name: V2-台湾多台负载均衡中继E1_5x_39, server: in05.dns2333.xyz, port: 64088, type: vmess, uuid: 51f79218-4c27-3a41-9c4f-bda3462a9b27, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /biteb, ws-headers: {Host: in05.dns2333.xyz}, udp: true}
+  - {name: 台湾(绿头外网集团)(Public) 2, server: zz.bbxy.cloud, port: 48888, type: vmess, uuid: 6e83ae62-1771-41be-86eb-816fbdc8b701, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hinet03, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 新加坡 |AS|1G|G5, server: sg5.bpyun.live, port: 443, type: vmess, uuid: e120ead0-a41f-3140-af59-8de91cbf3c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: sg5.bpyun.live}, udp: true}
+  - {name: 香港(绿头外网集团)(Public) 3, server: zz.bbxy.cloud, port: 38887, type: vmess, uuid: 6a2aadba-152b-36eb-84db-de2df96c93d6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hkt3, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 新加坡3|皖新隧道|×0.8, server: ah.cm.01.211129.xyz, port: 57153, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: ah.cm.01.211129.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港13|广港隧道|原生|×1, server: gz3.shanjun.me, port: 45248, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.shanjun.me, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(绿头外网集团)(Public) 5, server: zz.bbxy.cloud, port: 48888, type: vmess, uuid: 6e83ae62-1771-41be-86eb-816fbdc8b701, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /doxjp01, ws-headers: {Host: zz.bbxy.cloud}, udp: true}
+  - {name: 香港|直连|2x|TR|TLS, server: hk-az.licom.ga, port: 10001, type: trojan, password: ca706509-c328-4949-9d14-2ff2e14eab62, sni: hk-az.licom.ga, skip-cert-verify: true, udp: true}
+  - {name: 香港|直连|2x|V2|WS|TLS, server: hk-az.licom.ga, port: 10000, type: vmess, uuid: ca706509-c328-4949-9d14-2ff2e14eab62, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-az.licom.ga}, udp: true}
+  - {name: 香港7|安徽入口|原生|×1, server: ah.mimon.cc, port: 63292, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: ah.mimon.cc, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本4|杭州入口|原生|NF|×0.5
-      - 香港11|广港隧道|原生|×1
-      - 台湾3|湘港隧道|原生|NF|×1
+      - 新加坡2|湘港隧道|×0.8
+      - 香港4|杭州入口|原生|×1
+      - 新加坡(绿头外网集团)(Public)
+      - 香港3|广港隧道|原生|×1
+      - 香港9|长沙入口|原生|×1
+      - 日本(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 新加坡1|杭港隧道|×0.8
+      - 香港(绿头外网集团)(Public)
+      - 韩国1|杭州入口|原生|NF|×0.5
+      - 新加坡(绿头外网集团)(Public) 3
       - 香港14|湘港隧道|原生|Disney+|×1
       - 香港12|湘港隧道|原生|Disney+|×1
-      - 日本5|杭州入口|原生|NF|×0.5
-      - 香港5|湘港隧道|原生|×1
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港9|长沙入口|原生|×1
-      - 台湾1|广港隧道|原生|NF|×1
-      - 香港16|广港隧道|原生|Disney+|×1
-      - 日本7|湘日隧道|原生|NF|×1
+      - 香港11|皖港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 4
       - 香港10|湘港隧道|原生|×1
-      - 香港13|广港隧道|原生|×1
-      - 日本6|长沙入口|原生|NF|×0.5
-      - 美国1|湘港隧道|原生|NF|×1
-      - 日本6|江西入口|原生|NF|×0.5
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - V1-台湾多台负载均衡中继A1_5x_9
+      - 香港(绿头外网集团)(Public) 2
+      - 香港5|湘港隧道|原生|×1
+      - 美国(绿头外网集团)(Public)
+      - 美国3|原生|NF|×0.3
+      - 美国(绿头外网集团)(Public) 2
+      - 加拿大(绿头外网集团)(Public)
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾1|广港隧道|原生|NF|×1
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - 日本(绿头外网集团)(Public) 2
       - 香港15|广港隧道|原生|Disney+|×1
+      - 台湾(绿头外网集团)(Public)
+      - 新加坡-2|直连|解锁|2x|TR
+      - 中国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 4
       - 新加坡 |AS|1G|G7
-      - V2-台湾多台负载均衡中继E1_5x_39
+      - 台湾(绿头外网集团)(Public) 2
+      - 新加坡 |AS|1G|G5
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡3|皖新隧道|×0.8
+      - 香港13|广港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 5
+      - 香港|直连|2x|TR|TLS
+      - 香港|直连|2x|V2|WS|TLS
+      - 香港7|安徽入口|原生|×1
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 日本4|杭州入口|原生|NF|×0.5
-      - 香港11|广港隧道|原生|×1
-      - 台湾3|湘港隧道|原生|NF|×1
+      - 新加坡2|湘港隧道|×0.8
+      - 香港4|杭州入口|原生|×1
+      - 新加坡(绿头外网集团)(Public)
+      - 香港3|广港隧道|原生|×1
+      - 香港9|长沙入口|原生|×1
+      - 日本(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 新加坡1|杭港隧道|×0.8
+      - 香港(绿头外网集团)(Public)
+      - 韩国1|杭州入口|原生|NF|×0.5
+      - 新加坡(绿头外网集团)(Public) 3
       - 香港14|湘港隧道|原生|Disney+|×1
       - 香港12|湘港隧道|原生|Disney+|×1
-      - 日本5|杭州入口|原生|NF|×0.5
-      - 香港5|湘港隧道|原生|×1
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港9|长沙入口|原生|×1
-      - 台湾1|广港隧道|原生|NF|×1
-      - 香港16|广港隧道|原生|Disney+|×1
-      - 日本7|湘日隧道|原生|NF|×1
+      - 香港11|皖港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 4
       - 香港10|湘港隧道|原生|×1
-      - 香港13|广港隧道|原生|×1
-      - 日本6|长沙入口|原生|NF|×0.5
-      - 美国1|湘港隧道|原生|NF|×1
-      - 日本6|江西入口|原生|NF|×0.5
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - V1-台湾多台负载均衡中继A1_5x_9
+      - 香港(绿头外网集团)(Public) 2
+      - 香港5|湘港隧道|原生|×1
+      - 美国(绿头外网集团)(Public)
+      - 美国3|原生|NF|×0.3
+      - 美国(绿头外网集团)(Public) 2
+      - 加拿大(绿头外网集团)(Public)
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾1|广港隧道|原生|NF|×1
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - 日本(绿头外网集团)(Public) 2
       - 香港15|广港隧道|原生|Disney+|×1
+      - 台湾(绿头外网集团)(Public)
+      - 新加坡-2|直连|解锁|2x|TR
+      - 中国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 4
       - 新加坡 |AS|1G|G7
-      - V2-台湾多台负载均衡中继E1_5x_39
+      - 台湾(绿头外网集团)(Public) 2
+      - 新加坡 |AS|1G|G5
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡3|皖新隧道|×0.8
+      - 香港13|广港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 5
+      - 香港|直连|2x|TR|TLS
+      - 香港|直连|2x|V2|WS|TLS
+      - 香港7|安徽入口|原生|×1
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本4|杭州入口|原生|NF|×0.5
-      - 香港11|广港隧道|原生|×1
-      - 台湾3|湘港隧道|原生|NF|×1
+      - 新加坡2|湘港隧道|×0.8
+      - 香港4|杭州入口|原生|×1
+      - 新加坡(绿头外网集团)(Public)
+      - 香港3|广港隧道|原生|×1
+      - 香港9|长沙入口|原生|×1
+      - 日本(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 新加坡1|杭港隧道|×0.8
+      - 香港(绿头外网集团)(Public)
+      - 韩国1|杭州入口|原生|NF|×0.5
+      - 新加坡(绿头外网集团)(Public) 3
       - 香港14|湘港隧道|原生|Disney+|×1
       - 香港12|湘港隧道|原生|Disney+|×1
-      - 日本5|杭州入口|原生|NF|×0.5
-      - 香港5|湘港隧道|原生|×1
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港9|长沙入口|原生|×1
-      - 台湾1|广港隧道|原生|NF|×1
-      - 香港16|广港隧道|原生|Disney+|×1
-      - 日本7|湘日隧道|原生|NF|×1
+      - 香港11|皖港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 4
       - 香港10|湘港隧道|原生|×1
-      - 香港13|广港隧道|原生|×1
-      - 日本6|长沙入口|原生|NF|×0.5
-      - 美国1|湘港隧道|原生|NF|×1
-      - 日本6|江西入口|原生|NF|×0.5
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - V1-台湾多台负载均衡中继A1_5x_9
+      - 香港(绿头外网集团)(Public) 2
+      - 香港5|湘港隧道|原生|×1
+      - 美国(绿头外网集团)(Public)
+      - 美国3|原生|NF|×0.3
+      - 美国(绿头外网集团)(Public) 2
+      - 加拿大(绿头外网集团)(Public)
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾1|广港隧道|原生|NF|×1
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - 日本(绿头外网集团)(Public) 2
       - 香港15|广港隧道|原生|Disney+|×1
+      - 台湾(绿头外网集团)(Public)
+      - 新加坡-2|直连|解锁|2x|TR
+      - 中国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 4
       - 新加坡 |AS|1G|G7
-      - V2-台湾多台负载均衡中继E1_5x_39
+      - 台湾(绿头外网集团)(Public) 2
+      - 新加坡 |AS|1G|G5
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡3|皖新隧道|×0.8
+      - 香港13|广港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 5
+      - 香港|直连|2x|TR|TLS
+      - 香港|直连|2x|V2|WS|TLS
+      - 香港7|安徽入口|原生|×1
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -128,130 +216,224 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 日本4|杭州入口|原生|NF|×0.5
-      - 香港11|广港隧道|原生|×1
-      - 台湾3|湘港隧道|原生|NF|×1
+      - 新加坡2|湘港隧道|×0.8
+      - 香港4|杭州入口|原生|×1
+      - 新加坡(绿头外网集团)(Public)
+      - 香港3|广港隧道|原生|×1
+      - 香港9|长沙入口|原生|×1
+      - 日本(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 新加坡1|杭港隧道|×0.8
+      - 香港(绿头外网集团)(Public)
+      - 韩国1|杭州入口|原生|NF|×0.5
+      - 新加坡(绿头外网集团)(Public) 3
       - 香港14|湘港隧道|原生|Disney+|×1
       - 香港12|湘港隧道|原生|Disney+|×1
-      - 日本5|杭州入口|原生|NF|×0.5
-      - 香港5|湘港隧道|原生|×1
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港9|长沙入口|原生|×1
-      - 台湾1|广港隧道|原生|NF|×1
-      - 香港16|广港隧道|原生|Disney+|×1
-      - 日本7|湘日隧道|原生|NF|×1
+      - 香港11|皖港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 4
       - 香港10|湘港隧道|原生|×1
-      - 香港13|广港隧道|原生|×1
-      - 日本6|长沙入口|原生|NF|×0.5
-      - 美国1|湘港隧道|原生|NF|×1
-      - 日本6|江西入口|原生|NF|×0.5
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - V1-台湾多台负载均衡中继A1_5x_9
+      - 香港(绿头外网集团)(Public) 2
+      - 香港5|湘港隧道|原生|×1
+      - 美国(绿头外网集团)(Public)
+      - 美国3|原生|NF|×0.3
+      - 美国(绿头外网集团)(Public) 2
+      - 加拿大(绿头外网集团)(Public)
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾1|广港隧道|原生|NF|×1
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - 日本(绿头外网集团)(Public) 2
       - 香港15|广港隧道|原生|Disney+|×1
+      - 台湾(绿头外网集团)(Public)
+      - 新加坡-2|直连|解锁|2x|TR
+      - 中国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 4
       - 新加坡 |AS|1G|G7
-      - V2-台湾多台负载均衡中继E1_5x_39
+      - 台湾(绿头外网集团)(Public) 2
+      - 新加坡 |AS|1G|G5
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡3|皖新隧道|×0.8
+      - 香港13|广港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 5
+      - 香港|直连|2x|TR|TLS
+      - 香港|直连|2x|V2|WS|TLS
+      - 香港7|安徽入口|原生|×1
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港11|广港隧道|原生|×1
-      - 台湾3|湘港隧道|原生|NF|×1
+      - 新加坡2|湘港隧道|×0.8
+      - 香港4|杭州入口|原生|×1
+      - 香港3|广港隧道|原生|×1
+      - 香港9|长沙入口|原生|×1
+      - 新加坡1|杭港隧道|×0.8
+      - 香港(绿头外网集团)(Public)
       - 香港14|湘港隧道|原生|Disney+|×1
       - 香港12|湘港隧道|原生|Disney+|×1
-      - 香港5|湘港隧道|原生|×1
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港9|长沙入口|原生|×1
-      - 台湾1|广港隧道|原生|NF|×1
-      - 香港16|广港隧道|原生|Disney+|×1
+      - 香港11|皖港隧道|原生|×1
       - 香港10|湘港隧道|原生|×1
-      - 香港13|广港隧道|原生|×1
-      - 美国1|湘港隧道|原生|NF|×1
-      - V1-台湾多台负载均衡中继A1_5x_9
+      - 香港(绿头外网集团)(Public) 2
+      - 香港5|湘港隧道|原生|×1
+      - 台湾1|广港隧道|原生|NF|×1
       - 香港15|广港隧道|原生|Disney+|×1
-      - V2-台湾多台负载均衡中继E1_5x_39
+      - 台湾(绿头外网集团)(Public)
+      - 台湾(绿头外网集团)(Public) 2
+      - 香港(绿头外网集团)(Public) 3
+      - 香港13|广港隧道|原生|×1
+      - 香港|直连|2x|TR|TLS
+      - 香港|直连|2x|V2|WS|TLS
+      - 香港7|安徽入口|原生|×1
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 日本4|杭州入口|原生|NF|×0.5
-      - 香港11|广港隧道|原生|×1
-      - 台湾3|湘港隧道|原生|NF|×1
+      - 新加坡2|湘港隧道|×0.8
+      - 香港4|杭州入口|原生|×1
+      - 新加坡(绿头外网集团)(Public)
+      - 香港3|广港隧道|原生|×1
+      - 香港9|长沙入口|原生|×1
+      - 日本(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 新加坡1|杭港隧道|×0.8
+      - 香港(绿头外网集团)(Public)
+      - 韩国1|杭州入口|原生|NF|×0.5
+      - 新加坡(绿头外网集团)(Public) 3
       - 香港14|湘港隧道|原生|Disney+|×1
       - 香港12|湘港隧道|原生|Disney+|×1
-      - 日本5|杭州入口|原生|NF|×0.5
-      - 香港5|湘港隧道|原生|×1
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港9|长沙入口|原生|×1
-      - 台湾1|广港隧道|原生|NF|×1
-      - 香港16|广港隧道|原生|Disney+|×1
-      - 日本7|湘日隧道|原生|NF|×1
+      - 香港11|皖港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 4
       - 香港10|湘港隧道|原生|×1
-      - 香港13|广港隧道|原生|×1
-      - 日本6|长沙入口|原生|NF|×0.5
-      - 美国1|湘港隧道|原生|NF|×1
-      - 日本6|江西入口|原生|NF|×0.5
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - V1-台湾多台负载均衡中继A1_5x_9
+      - 香港(绿头外网集团)(Public) 2
+      - 香港5|湘港隧道|原生|×1
+      - 美国(绿头外网集团)(Public)
+      - 美国3|原生|NF|×0.3
+      - 美国(绿头外网集团)(Public) 2
+      - 加拿大(绿头外网集团)(Public)
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾1|广港隧道|原生|NF|×1
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - 日本(绿头外网集团)(Public) 2
       - 香港15|广港隧道|原生|Disney+|×1
+      - 台湾(绿头外网集团)(Public)
+      - 新加坡-2|直连|解锁|2x|TR
+      - 中国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 4
       - 新加坡 |AS|1G|G7
-      - V2-台湾多台负载均衡中继E1_5x_39
+      - 台湾(绿头外网集团)(Public) 2
+      - 新加坡 |AS|1G|G5
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡3|皖新隧道|×0.8
+      - 香港13|广港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 5
+      - 香港|直连|2x|TR|TLS
+      - 香港|直连|2x|V2|WS|TLS
+      - 香港7|安徽入口|原生|×1
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 日本4|杭州入口|原生|NF|×0.5
-      - 香港11|广港隧道|原生|×1
-      - 台湾3|湘港隧道|原生|NF|×1
+      - 新加坡2|湘港隧道|×0.8
+      - 香港4|杭州入口|原生|×1
+      - 新加坡(绿头外网集团)(Public)
+      - 香港3|广港隧道|原生|×1
+      - 香港9|长沙入口|原生|×1
+      - 日本(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 新加坡1|杭港隧道|×0.8
+      - 香港(绿头外网集团)(Public)
+      - 韩国1|杭州入口|原生|NF|×0.5
+      - 新加坡(绿头外网集团)(Public) 3
       - 香港14|湘港隧道|原生|Disney+|×1
       - 香港12|湘港隧道|原生|Disney+|×1
-      - 日本5|杭州入口|原生|NF|×0.5
-      - 香港5|湘港隧道|原生|×1
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港9|长沙入口|原生|×1
-      - 台湾1|广港隧道|原生|NF|×1
-      - 香港16|广港隧道|原生|Disney+|×1
-      - 日本7|湘日隧道|原生|NF|×1
+      - 香港11|皖港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 4
       - 香港10|湘港隧道|原生|×1
-      - 香港13|广港隧道|原生|×1
-      - 日本6|长沙入口|原生|NF|×0.5
-      - 美国1|湘港隧道|原生|NF|×1
-      - 日本6|江西入口|原生|NF|×0.5
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - V1-台湾多台负载均衡中继A1_5x_9
+      - 香港(绿头外网集团)(Public) 2
+      - 香港5|湘港隧道|原生|×1
+      - 美国(绿头外网集团)(Public)
+      - 美国3|原生|NF|×0.3
+      - 美国(绿头外网集团)(Public) 2
+      - 加拿大(绿头外网集团)(Public)
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾1|广港隧道|原生|NF|×1
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - 日本(绿头外网集团)(Public) 2
       - 香港15|广港隧道|原生|Disney+|×1
+      - 台湾(绿头外网集团)(Public)
+      - 新加坡-2|直连|解锁|2x|TR
+      - 中国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 4
       - 新加坡 |AS|1G|G7
-      - V2-台湾多台负载均衡中继E1_5x_39
+      - 台湾(绿头外网集团)(Public) 2
+      - 新加坡 |AS|1G|G5
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡3|皖新隧道|×0.8
+      - 香港13|广港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 5
+      - 香港|直连|2x|TR|TLS
+      - 香港|直连|2x|V2|WS|TLS
+      - 香港7|安徽入口|原生|×1
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本4|杭州入口|原生|NF|×0.5
-      - 香港11|广港隧道|原生|×1
-      - 台湾3|湘港隧道|原生|NF|×1
+      - 新加坡2|湘港隧道|×0.8
+      - 香港4|杭州入口|原生|×1
+      - 新加坡(绿头外网集团)(Public)
+      - 香港3|广港隧道|原生|×1
+      - 香港9|长沙入口|原生|×1
+      - 日本(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 新加坡1|杭港隧道|×0.8
+      - 香港(绿头外网集团)(Public)
+      - 韩国1|杭州入口|原生|NF|×0.5
+      - 新加坡(绿头外网集团)(Public) 3
       - 香港14|湘港隧道|原生|Disney+|×1
       - 香港12|湘港隧道|原生|Disney+|×1
-      - 日本5|杭州入口|原生|NF|×0.5
-      - 香港5|湘港隧道|原生|×1
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港9|长沙入口|原生|×1
-      - 台湾1|广港隧道|原生|NF|×1
-      - 香港16|广港隧道|原生|Disney+|×1
-      - 日本7|湘日隧道|原生|NF|×1
+      - 香港11|皖港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 4
       - 香港10|湘港隧道|原生|×1
-      - 香港13|广港隧道|原生|×1
-      - 日本6|长沙入口|原生|NF|×0.5
-      - 美国1|湘港隧道|原生|NF|×1
-      - 日本6|江西入口|原生|NF|×0.5
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - V1-台湾多台负载均衡中继A1_5x_9
+      - 香港(绿头外网集团)(Public) 2
+      - 香港5|湘港隧道|原生|×1
+      - 美国(绿头外网集团)(Public)
+      - 美国3|原生|NF|×0.3
+      - 美国(绿头外网集团)(Public) 2
+      - 加拿大(绿头外网集团)(Public)
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾1|广港隧道|原生|NF|×1
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - 日本(绿头外网集团)(Public) 2
       - 香港15|广港隧道|原生|Disney+|×1
+      - 台湾(绿头外网集团)(Public)
+      - 新加坡-2|直连|解锁|2x|TR
+      - 中国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 4
       - 新加坡 |AS|1G|G7
-      - V2-台湾多台负载均衡中继E1_5x_39
+      - 台湾(绿头外网集团)(Public) 2
+      - 新加坡 |AS|1G|G5
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡3|皖新隧道|×0.8
+      - 香港13|广港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 5
+      - 香港|直连|2x|TR|TLS
+      - 香港|直连|2x|V2|WS|TLS
+      - 香港7|安徽入口|原生|×1
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -267,28 +449,50 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 日本4|杭州入口|原生|NF|×0.5
-      - 香港11|广港隧道|原生|×1
-      - 台湾3|湘港隧道|原生|NF|×1
+      - 新加坡2|湘港隧道|×0.8
+      - 香港4|杭州入口|原生|×1
+      - 新加坡(绿头外网集团)(Public)
+      - 香港3|广港隧道|原生|×1
+      - 香港9|长沙入口|原生|×1
+      - 日本(绿头外网集团)(Public)
+      - 新加坡(绿头外网集团)(Public) 2
+      - 新加坡1|杭港隧道|×0.8
+      - 香港(绿头外网集团)(Public)
+      - 韩国1|杭州入口|原生|NF|×0.5
+      - 新加坡(绿头外网集团)(Public) 3
       - 香港14|湘港隧道|原生|Disney+|×1
       - 香港12|湘港隧道|原生|Disney+|×1
-      - 日本5|杭州入口|原生|NF|×0.5
-      - 香港5|湘港隧道|原生|×1
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港9|长沙入口|原生|×1
-      - 台湾1|广港隧道|原生|NF|×1
-      - 香港16|广港隧道|原生|Disney+|×1
-      - 日本7|湘日隧道|原生|NF|×1
+      - 香港11|皖港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 4
       - 香港10|湘港隧道|原生|×1
-      - 香港13|广港隧道|原生|×1
-      - 日本6|长沙入口|原生|NF|×0.5
-      - 美国1|湘港隧道|原生|NF|×1
-      - 日本6|江西入口|原生|NF|×0.5
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - V1-台湾多台负载均衡中继A1_5x_9
+      - 香港(绿头外网集团)(Public) 2
+      - 香港5|湘港隧道|原生|×1
+      - 美国(绿头外网集团)(Public)
+      - 美国3|原生|NF|×0.3
+      - 美国(绿头外网集团)(Public) 2
+      - 加拿大(绿头外网集团)(Public)
+      - 马来西亚(绿头外网集团)(Public)
+      - 台湾1|广港隧道|原生|NF|×1
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - 日本(绿头外网集团)(Public) 2
       - 香港15|广港隧道|原生|Disney+|×1
+      - 台湾(绿头外网集团)(Public)
+      - 新加坡-2|直连|解锁|2x|TR
+      - 中国_YouTube：8度科技
+      - 中国_YouTube：8度科技 2
+      - 美国(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 3
+      - 日本(绿头外网集团)(Public) 4
       - 新加坡 |AS|1G|G7
-      - V2-台湾多台负载均衡中继E1_5x_39
+      - 台湾(绿头外网集团)(Public) 2
+      - 新加坡 |AS|1G|G5
+      - 香港(绿头外网集团)(Public) 3
+      - 新加坡3|皖新隧道|×0.8
+      - 香港13|广港隧道|原生|×1
+      - 新加坡(绿头外网集团)(Public) 5
+      - 香港|直连|2x|TR|TLS
+      - 香港|直连|2x|V2|WS|TLS
+      - 香港7|安徽入口|原生|×1
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
