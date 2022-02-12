@@ -5,267 +5,263 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 基础|香港04解锁|H510, server: hdcn2.88abc88.xyz, port: 23012, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|新加坡01解锁|H529, server: hdcn2.88abc88.xyz, port: 23048, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 基础|香港02解锁|H508, server: hdcn2.88abc88.xyz, port: 23010, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|新加坡02解锁|H530, server: hdcn4.88abc88.xyz, port: 23049, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HK Native 06, server: 120.197.85.73, port: 2092, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 日本1|杭州入口|原生|NF|×0.5, server: cs.mimon.cc, port: 52877, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 香港9|长沙入口|原生|×1, server: cs2.mimon.cc, port: 12390, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: HK Native 03, server: 120.197.85.73, port: 2042, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: HK Native 02, server: 120.197.85.73, port: 2041, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 香港3|广港隧道|原生|×1, server: gz3.mimon.cc, port: 24661, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 香港5|湘港隧道|原生|×1, server: cs2.mimon.cc, port: 50275, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 香港10|湘港隧道|原生|×1, server: cs2.mimon.cc, port: 27807, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
   - {name: 新加坡2|湘港隧道|×0.8, server: cs2.mimon.cc, port: 44605, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: SG Native 05, server: 120.197.85.73, port: 2065, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 日本6|赣日隧道|原生|NF|×0.5, server: jx.mimon.cc, port: 45565, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: jx.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: "香港|中转[广移]|3.5x|SS|TLS|低延迟", server: qiqi.duduyun123.com, port: 12345, type: ss, cipher: chacha20-ietf-poly1305, password: ca706509-c328-4949-9d14-2ff2e14eab62, udp: true}
-  - {name: 香港|10x|GAME|BGP|广港专线, server: gga.sf66.cf, port: 45796, type: ss, cipher: chacha20-ietf-poly1305, password: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, udp: true}
-  - {name: 香港11|广港隧道|原生|×1, server: gz3.mimon.cc, port: 22934, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 日本(绿头外网集团)(Public), server: styd.sf66.cf, port: 53503, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: greencloud.jp.tgproxy.wtf}, udp: true}
-  - {name: HK Native 01, server: 120.197.85.73, port: 2040, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: SG Native 02, server: 120.197.85.73, port: 2062, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 新加坡4|广港隧道|×0.6, server: gz3.mimon.cc, port: 18669, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 日本7|湘日隧道|原生|NF|×1, server: cs2.mimon.cc, port: 58744, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 台湾3|湘港隧道|原生|NF|×1, server: cs2.mimon.cc, port: 28446, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 新加坡-2|直连|解锁|2x|TR, server: sg-aws-2.licom.ga, port: 20001, type: trojan, password: ca706509-c328-4949-9d14-2ff2e14eab62, sni: sg-aws-2.licom.ga, skip-cert-verify: true, udp: true}
-  - {name: 日本4|赣日隧道|原生|NF|×1.5, server: cn2.anoob.icu, port: 44643, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cn2.anoob.icu, skip-cert-verify: true, udp: true}
-  - {name: 香港12|湘港隧道|原生|Disney+|×1, server: cs2.mimon.cc, port: 25700, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public), server: jike-gzyd.jiserver.xyz, port: 29709, type: vmess, uuid: 5039ebc7-2b1c-39f2-9edd-2403a6a739b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike-gzyd.jiserver.xyz}, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public), server: aws.xjp.tgproxy.wtf, port: 8888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: aws.xjp.tgproxy.wtf}, udp: true}
-  - {name: 标准|西雅图02原生|H179, server: hdcn4.88abc88.xyz, port: 23001, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港13|广港隧道|原生|×1, server: gz3.shanjun.me, port: 45248, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.shanjun.me, skip-cert-verify: true, udp: true}
-  - {name: 日本3|湘日隧道|原生|NF|×0.5, server: cs.mimon.cc, port: 64880, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 2, server: styd.sf66.cf, port: 52412, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: vds.sgp.tgproxy.wtf}, udp: true}
-  - {name: 专线|香港02解锁|H528, server: hdcn2.88abc88.xyz, port: 23045, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国1|杭州入口|原生|NF|×0.5, server: mhz.shanjun.me, port: 25535, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: mhz.shanjun.me, skip-cert-verify: true, udp: true}
-  - {name: 香港|08|流解, server: 101.32.26.213, port: 33333, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: "%7B%22Host%22:%22101.32.26.213%22%7D"}, udp: true}
-  - {name: 台湾1|广港隧道|原生|NF|×1, server: gz3.shanjun.me, port: 44601, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.shanjun.me, skip-cert-verify: true, udp: true}
-  - {name: 台湾(绿头外网集团)(Public), server: nat.tw.tgproxy.wtf, port: 10562, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: nat.tw.tgproxy.wtf}, udp: true}
-  - {name: 标准|德国01标准|H515, server: hdcn2.88abc88.xyz, port: 23017, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 标准|德国02标准|H516, server: hdcn4.88abc88.xyz, port: 23018, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国3|原生|NF|×0.3, server: gzyd.anoob.icu, port: 55432, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gzyd.anoob.icu, skip-cert-verify: true, udp: true}
-  - {name: 香港2|广港隧道|原生|NF|×1, server: gz3.mimon.cc, port: 65335, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 香港(绿头外网集团)(Public) 2, server: jike-gzyd.jiserver.xyz, port: 39453, type: vmess, uuid: 5039ebc7-2b1c-39f2-9edd-2403a6a739b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike-gzyd.jiserver.xyz}, udp: true}
-  - {name: 美国1|湘港隧道|原生|NF|×1, server: cs2.mimon.cc, port: 61275, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: HK Native 05, server: 120.197.85.73, port: 2044, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
-  - {name: 新加坡(绿头外网集团)(Public) 3, server: jike-gzyd.jiserver.xyz, port: 29851, type: vmess, uuid: 5039ebc7-2b1c-39f2-9edd-2403a6a739b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike-gzyd.jiserver.xyz}, udp: true}
-  - {name: 美国(绿头外网集团)(Public), server: styd.sf66.cf, port: 16990, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: ggz.jgw.tgproxy.wtf}, udp: true}
-  - {name: 美国4|湘日隧道|原生|NF|×1, server: cs.mimon.cc, port: 55075, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: V1-香港 多台负载均衡 中继D | 1.5x, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
-  - {name: 美国_YouTube：8度科技, server: 167.88.63.28, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 台湾(绿头外网集团)(Public) 2, server: tw.twz.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.twz.tgproxy.wtf}, udp: true}
-  - {name: 标准|俄罗斯02原生|H602, server: hdcn2.88abc88.xyz, port: 23003, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 专线|香港03原生|H153, server: hdcn2.88abc88.xyz, port: 23053, type: vmess, uuid: a8d27fa4-f4d5-4d9d-854d-f2cb111b7a80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_64, server: in05.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
   - {name: 香港14|湘港隧道|原生|Disney+|×1, server: cs2.mimon.cc, port: 12025, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 香港|10x|GAME|BGP|广港专线, server: gga.sf66.cf, port: 45796, type: ss, cipher: chacha20-ietf-poly1305, password: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, udp: true}
+  - {name: 香港5|湘港隧道|原生|×1, server: cs2.mimon.cc, port: 50275, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_15, server: in04.dns2333.xyz, port: 63086, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: jp-balancer.myn1des.com}, udp: true}
+  - {name: 新加坡4|广港隧道|×0.6, server: gz3.mimon.cc, port: 18669, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_31, server: in03.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: 日本6|赣日隧道|原生|NF|×0.5, server: jx.mimon.cc, port: 45565, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: jx.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_32, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: HK Native 03, server: 120.197.85.73, port: 2042, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: 香港2|广港隧道|原生|NF|×1, server: gz3.mimon.cc, port: 65335, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_55, server: in05.dns2333.xyz, port: 63014, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-us01.covid19.rip}, udp: true}
+  - {name: 新加坡阿伟科技@TG/油管, server: tunnel-sg-a-01.xncloud.xyz, port: 107, type: vmess, uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /niaoyun, ws-headers: {Host: tunnel-sg-a-01.xncloud.xyz}, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_60, server: in05.dns2333.xyz, port: 63069, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
+  - {name: 新加坡2-三网优化, server: 0211sg5.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211sg5.fans8.xyz}, udp: true}
+  - {name: 香港13|广港隧道|原生|×1, server: gz3.shanjun.me, port: 45248, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.shanjun.me, skip-cert-verify: true, udp: true}
+  - {name: 香港3|广港隧道|原生|×1, server: gz3.mimon.cc, port: 24661, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 香港11|广港隧道|原生|×1, server: gz3.mimon.cc, port: 22934, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 香港10|湘港隧道|原生|×1, server: cs2.mimon.cc, port: 27807, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: V1-香港 多台负载均衡 中继D | 1.5x, server: in04.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_40, server: in05.dns2333.xyz, port: 63051, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: mugua-in01.airport-v2.com}, udp: true}
+  - {name: HK Native 05, server: 120.197.85.73, port: 2044, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: 美国3|原生|NF|×0.3, server: gzyd.anoob.icu, port: 55432, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gzyd.anoob.icu, skip-cert-verify: true, udp: true}
+  - {name: 香港9|长沙入口|原生|×1, server: cs2.mimon.cc, port: 12390, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 新加坡2-三网优化 2, server: 0211sg11.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211sg11.fans8.xyz}, udp: true}
+  - {name: HK Native 06, server: 120.197.85.73, port: 2092, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: 日本4|赣日隧道|原生|NF|×1.5, server: cn2.anoob.icu, port: 44643, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cn2.anoob.icu, skip-cert-verify: true, udp: true}
+  - {name: SG Native 05, server: 120.197.85.73, port: 2065, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_21, server: in03.dns2333.xyz, port: 63014, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-us01.covid19.rip}, udp: true}
+  - {name: 美国1|湘港隧道|原生|NF|×1, server: cs2.mimon.cc, port: 61275, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 美国(绿头外网集团)(Public), server: styd.sf66.cf, port: 16990, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: ggz.jgw.tgproxy.wtf}, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_30, server: in02.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_38, server: in03.dns2333.xyz, port: 63051, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: mugua-in01.airport-v2.com}, udp: true}
+  - {name: 新加坡1-三网优化, server: 0211sg3.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 0211sg3.fans8.xyz}, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_57, server: in02.dns2333.xyz, port: 63069, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: mugua-us03.covid19.rip}, udp: true}
+  - {name: 香港12|湘港隧道|原生|Disney+|×1, server: cs2.mimon.cc, port: 25700, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs2.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: 中国_YouTube：8度科技, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_209, server: 105.wgong.xyz, port: 52205, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_53, server: in02.dns2333.xyz, port: 63005, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-jp03.myn0des.com}, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_228, server: 103.wgong.xyz, port: 52203, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HK Native 01, server: 120.197.85.73, port: 2040, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_210, server: 109.wgong.xyz, port: 52209, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国4|湘日隧道|原生|NF|×1, server: cs.mimon.cc, port: 55075, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs.mimon.cc, skip-cert-verify: true, udp: true}
+  - {name: SG Native 02, server: 120.197.85.73, port: 2062, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
   - {name: 美国2|原生|去广告|NF|×0.3, server: gy2.anoob.icu, port: 55432, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gy2.anoob.icu, skip-cert-verify: true, udp: true}
-  - {name: 韩国(绿头外网集团)(Public), server: www.darkwater.xyz, port: 41759, type: trojan, password: ixkIc4mCzH, sni: www.darkwater.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本5|湘日隧道|原生|NF|×1.5, server: cs.mimon.cc, port: 44644, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: cs.mimon.cc, skip-cert-verify: true, udp: true}
-  - {name: 台湾(绿头外网集团)(Public) 3, server: jike-gzyd.jiserver.xyz, port: 39211, type: vmess, uuid: 5039ebc7-2b1c-39f2-9edd-2403a6a739b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike-gzyd.jiserver.xyz}, udp: true}
-  - {name: 台湾(绿头外网集团)(Public) 4, server: jike-gzyd.jiserver.xyz, port: 39213, type: vmess, uuid: 5039ebc7-2b1c-39f2-9edd-2403a6a739b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike-gzyd.jiserver.xyz}, udp: true}
-  - {name: 新加坡 |AS|1G|G7, server: sg7.bpyun.live, port: 443, type: vmess, uuid: e120ead0-a41f-3140-af59-8de91cbf3c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /cocksucker, ws-headers: {Host: sg7.bpyun.live}, udp: true}
-  - {name: 台湾(绿头外网集团)(Public) 5, server: jike-gzyd.jiserver.xyz, port: 39203, type: vmess, uuid: 5039ebc7-2b1c-39f2-9edd-2403a6a739b4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike-gzyd.jiserver.xyz}, udp: true}
+  - {name: 美国_TG@nodesharing_43, server: 142.202.48.58, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: 日本(绿头外网集团)(Public), server: styd.sf66.cf, port: 53503, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: greencloud.jp.tgproxy.wtf}, udp: true}
+  - {name: HK Native 02, server: 120.197.85.73, port: 2041, type: ss, cipher: chacha20-ietf-poly1305, password: 708de56e-ada7-4bab-86ce-dadd4beabd62, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_20, server: in02.dns2333.xyz, port: 63014, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mg, ws-headers: {Host: mugua-us01.covid19.rip}, udp: true}
+  - {name: 香港5-三网优化, server: 128hk01.fans8.xyz, port: 80, type: vmess, uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: 128hk01.fans8.xyz}, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_29, server: in01.dns2333.xyz, port: 63078, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-balancer.airport-v2.com}, udp: true}
+  - {name: 台湾1|广港隧道|原生|NF|×1, server: gz3.shanjun.me, port: 44601, type: trojan, password: 2e9dc60f-e539-4777-8016-e832ac4a6841, sni: gz3.shanjun.me, skip-cert-verify: true, udp: true}
+  - {name: 新加坡AWS|TCP80|轩赞助, server: 54.255.152.164, port: 80, type: vmess, uuid: e24c58a0-6b27-4df5-b69f-2ef4753996b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_36, server: in01.dns2333.xyz, port: 63051, type: vmess, uuid: 6d807eef-f2b2-39fe-8922-f7f5ae69931d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: mugua-in01.airport-v2.com}, udp: true}
+  - {name: _03, server: 42.157.8.162, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(绿头外网集团)(Public), server: tw.twz.tgproxy.wtf, port: 21888, type: vmess, uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.twz.tgproxy.wtf}, udp: true}
+  - {name: HK5|10G|WS, server: 104.208.105.171, port: 80, type: vmess, uuid: e24c58a0-6b27-4df5-b69f-2ef4753996b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: shoutingtoutiao3.10010.com}, udp: true}
+  - {name: 台湾阿伟科技@TG/油管, server: tw.main.tgproxy.wtf, port: 30002, type: vmess, uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /theuploadapi, ws-headers: {Host: tw.main.tgproxy.wtf}, udp: true}
+  - {name: CN_二爷免费翻墙网https://1808.ga_229, server: 82.wgong.xyz, port: 52282, type: vmess, uuid: 08103798-414e-32b6-8748-2507732d2c51, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 基础|香港04解锁|H510
-      - 专线|新加坡01解锁|H529
-      - 基础|香港02解锁|H508
-      - 专线|新加坡02解锁|H530
-      - HK Native 06
-      - 日本1|杭州入口|原生|NF|×0.5
-      - 香港9|长沙入口|原生|×1
-      - HK Native 03
-      - HK Native 02
-      - 香港3|广港隧道|原生|×1
-      - 香港5|湘港隧道|原生|×1
-      - 香港10|湘港隧道|原生|×1
       - 新加坡2|湘港隧道|×0.8
-      - SG Native 05
-      - 日本6|赣日隧道|原生|NF|×0.5
-      - 香港|中转[广移]|3.5x|SS|TLS|低延迟
-      - 香港|10x|GAME|BGP|广港专线
-      - 香港11|广港隧道|原生|×1
-      - 日本(绿头外网集团)(Public)
-      - HK Native 01
-      - SG Native 02
-      - 新加坡4|广港隧道|×0.6
-      - 日本7|湘日隧道|原生|NF|×1
-      - 台湾3|湘港隧道|原生|NF|×1
-      - 新加坡-2|直连|解锁|2x|TR
-      - 日本4|赣日隧道|原生|NF|×1.5
-      - 香港12|湘港隧道|原生|Disney+|×1
-      - 香港(绿头外网集团)(Public)
-      - 新加坡(绿头外网集团)(Public)
-      - 标准|西雅图02原生|H179
-      - 香港13|广港隧道|原生|×1
-      - 日本3|湘日隧道|原生|NF|×0.5
-      - 新加坡(绿头外网集团)(Public) 2
-      - 专线|香港02解锁|H528
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - 香港|08|流解
-      - 台湾1|广港隧道|原生|NF|×1
-      - 台湾(绿头外网集团)(Public)
-      - 标准|德国01标准|H515
-      - 标准|德国02标准|H516
-      - 美国3|原生|NF|×0.3
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港(绿头外网集团)(Public) 2
-      - 美国1|湘港隧道|原生|NF|×1
-      - HK Native 05
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public)
-      - 美国4|湘日隧道|原生|NF|×1
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 美国_YouTube：8度科技
-      - 台湾(绿头外网集团)(Public) 2
-      - 标准|俄罗斯02原生|H602
-      - 专线|香港03原生|H153
+      - CN_二爷免费翻墙网https://1808.ga_64
       - 香港14|湘港隧道|原生|Disney+|×1
+      - 香港|10x|GAME|BGP|广港专线
+      - 香港5|湘港隧道|原生|×1
+      - CN_二爷免费翻墙网https://1808.ga_15
+      - 新加坡4|广港隧道|×0.6
+      - CN_二爷免费翻墙网https://1808.ga_31
+      - 日本6|赣日隧道|原生|NF|×0.5
+      - CN_二爷免费翻墙网https://1808.ga_32
+      - HK Native 03
+      - 香港2|广港隧道|原生|NF|×1
+      - CN_二爷免费翻墙网https://1808.ga_55
+      - 新加坡阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_60
+      - 新加坡2-三网优化
+      - 香港13|广港隧道|原生|×1
+      - 香港3|广港隧道|原生|×1
+      - 香港11|广港隧道|原生|×1
+      - 香港10|湘港隧道|原生|×1
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - CN_二爷免费翻墙网https://1808.ga_40
+      - HK Native 05
+      - 美国3|原生|NF|×0.3
+      - 香港9|长沙入口|原生|×1
+      - 新加坡2-三网优化 2
+      - HK Native 06
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - SG Native 05
+      - CN_二爷免费翻墙网https://1808.ga_21
+      - 美国1|湘港隧道|原生|NF|×1
+      - 美国(绿头外网集团)(Public)
+      - CN_二爷免费翻墙网https://1808.ga_30
+      - CN_二爷免费翻墙网https://1808.ga_38
+      - 新加坡1-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_57
+      - 香港12|湘港隧道|原生|Disney+|×1
+      - 中国_YouTube：8度科技
+      - CN_二爷免费翻墙网https://1808.ga_209
+      - CN_二爷免费翻墙网https://1808.ga_53
+      - CN_二爷免费翻墙网https://1808.ga_228
+      - HK Native 01
+      - CN_二爷免费翻墙网https://1808.ga_210
+      - 美国4|湘日隧道|原生|NF|×1
+      - SG Native 02
       - 美国2|原生|去广告|NF|×0.3
-      - 韩国(绿头外网集团)(Public)
-      - 日本5|湘日隧道|原生|NF|×1.5
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public) 4
-      - 新加坡 |AS|1G|G7
-      - 台湾(绿头外网集团)(Public) 5
+      - 美国_TG@nodesharing_43
+      - 日本(绿头外网集团)(Public)
+      - HK Native 02
+      - CN_二爷免费翻墙网https://1808.ga_20
+      - 香港5-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_29
+      - 台湾1|广港隧道|原生|NF|×1
+      - 新加坡AWS|TCP80|轩赞助
+      - CN_二爷免费翻墙网https://1808.ga_36
+      - _03
+      - 台湾(绿头外网集团)(Public)
+      - HK5|10G|WS
+      - 台湾阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_229
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 基础|香港04解锁|H510
-      - 专线|新加坡01解锁|H529
-      - 基础|香港02解锁|H508
-      - 专线|新加坡02解锁|H530
-      - HK Native 06
-      - 日本1|杭州入口|原生|NF|×0.5
-      - 香港9|长沙入口|原生|×1
-      - HK Native 03
-      - HK Native 02
-      - 香港3|广港隧道|原生|×1
-      - 香港5|湘港隧道|原生|×1
-      - 香港10|湘港隧道|原生|×1
       - 新加坡2|湘港隧道|×0.8
-      - SG Native 05
-      - 日本6|赣日隧道|原生|NF|×0.5
-      - 香港|中转[广移]|3.5x|SS|TLS|低延迟
-      - 香港|10x|GAME|BGP|广港专线
-      - 香港11|广港隧道|原生|×1
-      - 日本(绿头外网集团)(Public)
-      - HK Native 01
-      - SG Native 02
-      - 新加坡4|广港隧道|×0.6
-      - 日本7|湘日隧道|原生|NF|×1
-      - 台湾3|湘港隧道|原生|NF|×1
-      - 新加坡-2|直连|解锁|2x|TR
-      - 日本4|赣日隧道|原生|NF|×1.5
-      - 香港12|湘港隧道|原生|Disney+|×1
-      - 香港(绿头外网集团)(Public)
-      - 新加坡(绿头外网集团)(Public)
-      - 标准|西雅图02原生|H179
-      - 香港13|广港隧道|原生|×1
-      - 日本3|湘日隧道|原生|NF|×0.5
-      - 新加坡(绿头外网集团)(Public) 2
-      - 专线|香港02解锁|H528
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - 香港|08|流解
-      - 台湾1|广港隧道|原生|NF|×1
-      - 台湾(绿头外网集团)(Public)
-      - 标准|德国01标准|H515
-      - 标准|德国02标准|H516
-      - 美国3|原生|NF|×0.3
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港(绿头外网集团)(Public) 2
-      - 美国1|湘港隧道|原生|NF|×1
-      - HK Native 05
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public)
-      - 美国4|湘日隧道|原生|NF|×1
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 美国_YouTube：8度科技
-      - 台湾(绿头外网集团)(Public) 2
-      - 标准|俄罗斯02原生|H602
-      - 专线|香港03原生|H153
+      - CN_二爷免费翻墙网https://1808.ga_64
       - 香港14|湘港隧道|原生|Disney+|×1
+      - 香港|10x|GAME|BGP|广港专线
+      - 香港5|湘港隧道|原生|×1
+      - CN_二爷免费翻墙网https://1808.ga_15
+      - 新加坡4|广港隧道|×0.6
+      - CN_二爷免费翻墙网https://1808.ga_31
+      - 日本6|赣日隧道|原生|NF|×0.5
+      - CN_二爷免费翻墙网https://1808.ga_32
+      - HK Native 03
+      - 香港2|广港隧道|原生|NF|×1
+      - CN_二爷免费翻墙网https://1808.ga_55
+      - 新加坡阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_60
+      - 新加坡2-三网优化
+      - 香港13|广港隧道|原生|×1
+      - 香港3|广港隧道|原生|×1
+      - 香港11|广港隧道|原生|×1
+      - 香港10|湘港隧道|原生|×1
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - CN_二爷免费翻墙网https://1808.ga_40
+      - HK Native 05
+      - 美国3|原生|NF|×0.3
+      - 香港9|长沙入口|原生|×1
+      - 新加坡2-三网优化 2
+      - HK Native 06
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - SG Native 05
+      - CN_二爷免费翻墙网https://1808.ga_21
+      - 美国1|湘港隧道|原生|NF|×1
+      - 美国(绿头外网集团)(Public)
+      - CN_二爷免费翻墙网https://1808.ga_30
+      - CN_二爷免费翻墙网https://1808.ga_38
+      - 新加坡1-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_57
+      - 香港12|湘港隧道|原生|Disney+|×1
+      - 中国_YouTube：8度科技
+      - CN_二爷免费翻墙网https://1808.ga_209
+      - CN_二爷免费翻墙网https://1808.ga_53
+      - CN_二爷免费翻墙网https://1808.ga_228
+      - HK Native 01
+      - CN_二爷免费翻墙网https://1808.ga_210
+      - 美国4|湘日隧道|原生|NF|×1
+      - SG Native 02
       - 美国2|原生|去广告|NF|×0.3
-      - 韩国(绿头外网集团)(Public)
-      - 日本5|湘日隧道|原生|NF|×1.5
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public) 4
-      - 新加坡 |AS|1G|G7
-      - 台湾(绿头外网集团)(Public) 5
+      - 美国_TG@nodesharing_43
+      - 日本(绿头外网集团)(Public)
+      - HK Native 02
+      - CN_二爷免费翻墙网https://1808.ga_20
+      - 香港5-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_29
+      - 台湾1|广港隧道|原生|NF|×1
+      - 新加坡AWS|TCP80|轩赞助
+      - CN_二爷免费翻墙网https://1808.ga_36
+      - _03
+      - 台湾(绿头外网集团)(Public)
+      - HK5|10G|WS
+      - 台湾阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_229
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 基础|香港04解锁|H510
-      - 专线|新加坡01解锁|H529
-      - 基础|香港02解锁|H508
-      - 专线|新加坡02解锁|H530
-      - HK Native 06
-      - 日本1|杭州入口|原生|NF|×0.5
-      - 香港9|长沙入口|原生|×1
-      - HK Native 03
-      - HK Native 02
-      - 香港3|广港隧道|原生|×1
-      - 香港5|湘港隧道|原生|×1
-      - 香港10|湘港隧道|原生|×1
       - 新加坡2|湘港隧道|×0.8
-      - SG Native 05
-      - 日本6|赣日隧道|原生|NF|×0.5
-      - 香港|中转[广移]|3.5x|SS|TLS|低延迟
-      - 香港|10x|GAME|BGP|广港专线
-      - 香港11|广港隧道|原生|×1
-      - 日本(绿头外网集团)(Public)
-      - HK Native 01
-      - SG Native 02
-      - 新加坡4|广港隧道|×0.6
-      - 日本7|湘日隧道|原生|NF|×1
-      - 台湾3|湘港隧道|原生|NF|×1
-      - 新加坡-2|直连|解锁|2x|TR
-      - 日本4|赣日隧道|原生|NF|×1.5
-      - 香港12|湘港隧道|原生|Disney+|×1
-      - 香港(绿头外网集团)(Public)
-      - 新加坡(绿头外网集团)(Public)
-      - 标准|西雅图02原生|H179
-      - 香港13|广港隧道|原生|×1
-      - 日本3|湘日隧道|原生|NF|×0.5
-      - 新加坡(绿头外网集团)(Public) 2
-      - 专线|香港02解锁|H528
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - 香港|08|流解
-      - 台湾1|广港隧道|原生|NF|×1
-      - 台湾(绿头外网集团)(Public)
-      - 标准|德国01标准|H515
-      - 标准|德国02标准|H516
-      - 美国3|原生|NF|×0.3
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港(绿头外网集团)(Public) 2
-      - 美国1|湘港隧道|原生|NF|×1
-      - HK Native 05
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public)
-      - 美国4|湘日隧道|原生|NF|×1
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 美国_YouTube：8度科技
-      - 台湾(绿头外网集团)(Public) 2
-      - 标准|俄罗斯02原生|H602
-      - 专线|香港03原生|H153
+      - CN_二爷免费翻墙网https://1808.ga_64
       - 香港14|湘港隧道|原生|Disney+|×1
+      - 香港|10x|GAME|BGP|广港专线
+      - 香港5|湘港隧道|原生|×1
+      - CN_二爷免费翻墙网https://1808.ga_15
+      - 新加坡4|广港隧道|×0.6
+      - CN_二爷免费翻墙网https://1808.ga_31
+      - 日本6|赣日隧道|原生|NF|×0.5
+      - CN_二爷免费翻墙网https://1808.ga_32
+      - HK Native 03
+      - 香港2|广港隧道|原生|NF|×1
+      - CN_二爷免费翻墙网https://1808.ga_55
+      - 新加坡阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_60
+      - 新加坡2-三网优化
+      - 香港13|广港隧道|原生|×1
+      - 香港3|广港隧道|原生|×1
+      - 香港11|广港隧道|原生|×1
+      - 香港10|湘港隧道|原生|×1
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - CN_二爷免费翻墙网https://1808.ga_40
+      - HK Native 05
+      - 美国3|原生|NF|×0.3
+      - 香港9|长沙入口|原生|×1
+      - 新加坡2-三网优化 2
+      - HK Native 06
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - SG Native 05
+      - CN_二爷免费翻墙网https://1808.ga_21
+      - 美国1|湘港隧道|原生|NF|×1
+      - 美国(绿头外网集团)(Public)
+      - CN_二爷免费翻墙网https://1808.ga_30
+      - CN_二爷免费翻墙网https://1808.ga_38
+      - 新加坡1-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_57
+      - 香港12|湘港隧道|原生|Disney+|×1
+      - 中国_YouTube：8度科技
+      - CN_二爷免费翻墙网https://1808.ga_209
+      - CN_二爷免费翻墙网https://1808.ga_53
+      - CN_二爷免费翻墙网https://1808.ga_228
+      - HK Native 01
+      - CN_二爷免费翻墙网https://1808.ga_210
+      - 美国4|湘日隧道|原生|NF|×1
+      - SG Native 02
       - 美国2|原生|去广告|NF|×0.3
-      - 韩国(绿头外网集团)(Public)
-      - 日本5|湘日隧道|原生|NF|×1.5
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public) 4
-      - 新加坡 |AS|1G|G7
-      - 台湾(绿头外网集团)(Public) 5
+      - 美国_TG@nodesharing_43
+      - 日本(绿头外网集团)(Public)
+      - HK Native 02
+      - CN_二爷免费翻墙网https://1808.ga_20
+      - 香港5-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_29
+      - 台湾1|广港隧道|原生|NF|×1
+      - 新加坡AWS|TCP80|轩赞助
+      - CN_二爷免费翻墙网https://1808.ga_36
+      - _03
+      - 台湾(绿头外网集团)(Public)
+      - HK5|10G|WS
+      - 台湾阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_229
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -284,300 +280,285 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 基础|香港04解锁|H510
-      - 专线|新加坡01解锁|H529
-      - 基础|香港02解锁|H508
-      - 专线|新加坡02解锁|H530
-      - HK Native 06
-      - 日本1|杭州入口|原生|NF|×0.5
-      - 香港9|长沙入口|原生|×1
-      - HK Native 03
-      - HK Native 02
-      - 香港3|广港隧道|原生|×1
-      - 香港5|湘港隧道|原生|×1
-      - 香港10|湘港隧道|原生|×1
       - 新加坡2|湘港隧道|×0.8
-      - SG Native 05
-      - 日本6|赣日隧道|原生|NF|×0.5
-      - 香港|中转[广移]|3.5x|SS|TLS|低延迟
-      - 香港|10x|GAME|BGP|广港专线
-      - 香港11|广港隧道|原生|×1
-      - 日本(绿头外网集团)(Public)
-      - HK Native 01
-      - SG Native 02
-      - 新加坡4|广港隧道|×0.6
-      - 日本7|湘日隧道|原生|NF|×1
-      - 台湾3|湘港隧道|原生|NF|×1
-      - 新加坡-2|直连|解锁|2x|TR
-      - 日本4|赣日隧道|原生|NF|×1.5
-      - 香港12|湘港隧道|原生|Disney+|×1
-      - 香港(绿头外网集团)(Public)
-      - 新加坡(绿头外网集团)(Public)
-      - 标准|西雅图02原生|H179
-      - 香港13|广港隧道|原生|×1
-      - 日本3|湘日隧道|原生|NF|×0.5
-      - 新加坡(绿头外网集团)(Public) 2
-      - 专线|香港02解锁|H528
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - 香港|08|流解
-      - 台湾1|广港隧道|原生|NF|×1
-      - 台湾(绿头外网集团)(Public)
-      - 标准|德国01标准|H515
-      - 标准|德国02标准|H516
-      - 美国3|原生|NF|×0.3
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港(绿头外网集团)(Public) 2
-      - 美国1|湘港隧道|原生|NF|×1
-      - HK Native 05
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public)
-      - 美国4|湘日隧道|原生|NF|×1
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 美国_YouTube：8度科技
-      - 台湾(绿头外网集团)(Public) 2
-      - 标准|俄罗斯02原生|H602
-      - 专线|香港03原生|H153
+      - CN_二爷免费翻墙网https://1808.ga_64
       - 香港14|湘港隧道|原生|Disney+|×1
+      - 香港|10x|GAME|BGP|广港专线
+      - 香港5|湘港隧道|原生|×1
+      - CN_二爷免费翻墙网https://1808.ga_15
+      - 新加坡4|广港隧道|×0.6
+      - CN_二爷免费翻墙网https://1808.ga_31
+      - 日本6|赣日隧道|原生|NF|×0.5
+      - CN_二爷免费翻墙网https://1808.ga_32
+      - HK Native 03
+      - 香港2|广港隧道|原生|NF|×1
+      - CN_二爷免费翻墙网https://1808.ga_55
+      - 新加坡阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_60
+      - 新加坡2-三网优化
+      - 香港13|广港隧道|原生|×1
+      - 香港3|广港隧道|原生|×1
+      - 香港11|广港隧道|原生|×1
+      - 香港10|湘港隧道|原生|×1
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - CN_二爷免费翻墙网https://1808.ga_40
+      - HK Native 05
+      - 美国3|原生|NF|×0.3
+      - 香港9|长沙入口|原生|×1
+      - 新加坡2-三网优化 2
+      - HK Native 06
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - SG Native 05
+      - CN_二爷免费翻墙网https://1808.ga_21
+      - 美国1|湘港隧道|原生|NF|×1
+      - 美国(绿头外网集团)(Public)
+      - CN_二爷免费翻墙网https://1808.ga_30
+      - CN_二爷免费翻墙网https://1808.ga_38
+      - 新加坡1-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_57
+      - 香港12|湘港隧道|原生|Disney+|×1
+      - 中国_YouTube：8度科技
+      - CN_二爷免费翻墙网https://1808.ga_209
+      - CN_二爷免费翻墙网https://1808.ga_53
+      - CN_二爷免费翻墙网https://1808.ga_228
+      - HK Native 01
+      - CN_二爷免费翻墙网https://1808.ga_210
+      - 美国4|湘日隧道|原生|NF|×1
+      - SG Native 02
       - 美国2|原生|去广告|NF|×0.3
-      - 韩国(绿头外网集团)(Public)
-      - 日本5|湘日隧道|原生|NF|×1.5
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public) 4
-      - 新加坡 |AS|1G|G7
-      - 台湾(绿头外网集团)(Public) 5
+      - 美国_TG@nodesharing_43
+      - 日本(绿头外网集团)(Public)
+      - HK Native 02
+      - CN_二爷免费翻墙网https://1808.ga_20
+      - 香港5-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_29
+      - 台湾1|广港隧道|原生|NF|×1
+      - 新加坡AWS|TCP80|轩赞助
+      - CN_二爷免费翻墙网https://1808.ga_36
+      - _03
+      - 台湾(绿头外网集团)(Public)
+      - HK5|10G|WS
+      - 台湾阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_229
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 基础|香港04解锁|H510
-      - 基础|香港02解锁|H508
-      - 香港9|长沙入口|原生|×1
-      - 香港3|广港隧道|原生|×1
-      - 香港5|湘港隧道|原生|×1
-      - 香港10|湘港隧道|原生|×1
       - 新加坡2|湘港隧道|×0.8
-      - 香港|中转[广移]|3.5x|SS|TLS|低延迟
+      - 香港14|湘港隧道|原生|Disney+|×1
       - 香港|10x|GAME|BGP|广港专线
-      - 香港11|广港隧道|原生|×1
+      - 香港5|湘港隧道|原生|×1
       - 新加坡4|广港隧道|×0.6
-      - 台湾3|湘港隧道|原生|NF|×1
-      - 香港12|湘港隧道|原生|Disney+|×1
-      - 香港(绿头外网集团)(Public)
+      - 香港2|广港隧道|原生|NF|×1
       - 香港13|广港隧道|原生|×1
-      - 专线|香港02解锁|H528
-      - 香港|08|流解
+      - 香港3|广港隧道|原生|×1
+      - 香港11|广港隧道|原生|×1
+      - 香港10|湘港隧道|原生|×1
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - 香港9|长沙入口|原生|×1
+      - 美国1|湘港隧道|原生|NF|×1
+      - 香港12|湘港隧道|原生|Disney+|×1
+      - 香港5-三网优化
       - 台湾1|广港隧道|原生|NF|×1
       - 台湾(绿头外网集团)(Public)
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港(绿头外网集团)(Public) 2
-      - 美国1|湘港隧道|原生|NF|×1
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 台湾(绿头外网集团)(Public) 2
-      - 专线|香港03原生|H153
-      - 香港14|湘港隧道|原生|Disney+|×1
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public) 4
-      - 台湾(绿头外网集团)(Public) 5
+      - 台湾阿伟科技@TG/油管
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 基础|香港04解锁|H510
-      - 专线|新加坡01解锁|H529
-      - 基础|香港02解锁|H508
-      - 专线|新加坡02解锁|H530
-      - HK Native 06
-      - 日本1|杭州入口|原生|NF|×0.5
-      - 香港9|长沙入口|原生|×1
-      - HK Native 03
-      - HK Native 02
-      - 香港3|广港隧道|原生|×1
-      - 香港5|湘港隧道|原生|×1
-      - 香港10|湘港隧道|原生|×1
       - 新加坡2|湘港隧道|×0.8
-      - SG Native 05
-      - 日本6|赣日隧道|原生|NF|×0.5
-      - 香港|中转[广移]|3.5x|SS|TLS|低延迟
-      - 香港|10x|GAME|BGP|广港专线
-      - 香港11|广港隧道|原生|×1
-      - 日本(绿头外网集团)(Public)
-      - HK Native 01
-      - SG Native 02
-      - 新加坡4|广港隧道|×0.6
-      - 日本7|湘日隧道|原生|NF|×1
-      - 台湾3|湘港隧道|原生|NF|×1
-      - 新加坡-2|直连|解锁|2x|TR
-      - 日本4|赣日隧道|原生|NF|×1.5
-      - 香港12|湘港隧道|原生|Disney+|×1
-      - 香港(绿头外网集团)(Public)
-      - 新加坡(绿头外网集团)(Public)
-      - 标准|西雅图02原生|H179
-      - 香港13|广港隧道|原生|×1
-      - 日本3|湘日隧道|原生|NF|×0.5
-      - 新加坡(绿头外网集团)(Public) 2
-      - 专线|香港02解锁|H528
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - 香港|08|流解
-      - 台湾1|广港隧道|原生|NF|×1
-      - 台湾(绿头外网集团)(Public)
-      - 标准|德国01标准|H515
-      - 标准|德国02标准|H516
-      - 美国3|原生|NF|×0.3
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港(绿头外网集团)(Public) 2
-      - 美国1|湘港隧道|原生|NF|×1
-      - HK Native 05
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public)
-      - 美国4|湘日隧道|原生|NF|×1
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 美国_YouTube：8度科技
-      - 台湾(绿头外网集团)(Public) 2
-      - 标准|俄罗斯02原生|H602
-      - 专线|香港03原生|H153
+      - CN_二爷免费翻墙网https://1808.ga_64
       - 香港14|湘港隧道|原生|Disney+|×1
+      - 香港|10x|GAME|BGP|广港专线
+      - 香港5|湘港隧道|原生|×1
+      - CN_二爷免费翻墙网https://1808.ga_15
+      - 新加坡4|广港隧道|×0.6
+      - CN_二爷免费翻墙网https://1808.ga_31
+      - 日本6|赣日隧道|原生|NF|×0.5
+      - CN_二爷免费翻墙网https://1808.ga_32
+      - HK Native 03
+      - 香港2|广港隧道|原生|NF|×1
+      - CN_二爷免费翻墙网https://1808.ga_55
+      - 新加坡阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_60
+      - 新加坡2-三网优化
+      - 香港13|广港隧道|原生|×1
+      - 香港3|广港隧道|原生|×1
+      - 香港11|广港隧道|原生|×1
+      - 香港10|湘港隧道|原生|×1
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - CN_二爷免费翻墙网https://1808.ga_40
+      - HK Native 05
+      - 美国3|原生|NF|×0.3
+      - 香港9|长沙入口|原生|×1
+      - 新加坡2-三网优化 2
+      - HK Native 06
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - SG Native 05
+      - CN_二爷免费翻墙网https://1808.ga_21
+      - 美国1|湘港隧道|原生|NF|×1
+      - 美国(绿头外网集团)(Public)
+      - CN_二爷免费翻墙网https://1808.ga_30
+      - CN_二爷免费翻墙网https://1808.ga_38
+      - 新加坡1-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_57
+      - 香港12|湘港隧道|原生|Disney+|×1
+      - 中国_YouTube：8度科技
+      - CN_二爷免费翻墙网https://1808.ga_209
+      - CN_二爷免费翻墙网https://1808.ga_53
+      - CN_二爷免费翻墙网https://1808.ga_228
+      - HK Native 01
+      - CN_二爷免费翻墙网https://1808.ga_210
+      - 美国4|湘日隧道|原生|NF|×1
+      - SG Native 02
       - 美国2|原生|去广告|NF|×0.3
-      - 韩国(绿头外网集团)(Public)
-      - 日本5|湘日隧道|原生|NF|×1.5
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public) 4
-      - 新加坡 |AS|1G|G7
-      - 台湾(绿头外网集团)(Public) 5
+      - 美国_TG@nodesharing_43
+      - 日本(绿头外网集团)(Public)
+      - HK Native 02
+      - CN_二爷免费翻墙网https://1808.ga_20
+      - 香港5-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_29
+      - 台湾1|广港隧道|原生|NF|×1
+      - 新加坡AWS|TCP80|轩赞助
+      - CN_二爷免费翻墙网https://1808.ga_36
+      - _03
+      - 台湾(绿头外网集团)(Public)
+      - HK5|10G|WS
+      - 台湾阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_229
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 基础|香港04解锁|H510
-      - 专线|新加坡01解锁|H529
-      - 基础|香港02解锁|H508
-      - 专线|新加坡02解锁|H530
-      - HK Native 06
-      - 日本1|杭州入口|原生|NF|×0.5
-      - 香港9|长沙入口|原生|×1
-      - HK Native 03
-      - HK Native 02
-      - 香港3|广港隧道|原生|×1
-      - 香港5|湘港隧道|原生|×1
-      - 香港10|湘港隧道|原生|×1
       - 新加坡2|湘港隧道|×0.8
-      - SG Native 05
-      - 日本6|赣日隧道|原生|NF|×0.5
-      - 香港|中转[广移]|3.5x|SS|TLS|低延迟
-      - 香港|10x|GAME|BGP|广港专线
-      - 香港11|广港隧道|原生|×1
-      - 日本(绿头外网集团)(Public)
-      - HK Native 01
-      - SG Native 02
-      - 新加坡4|广港隧道|×0.6
-      - 日本7|湘日隧道|原生|NF|×1
-      - 台湾3|湘港隧道|原生|NF|×1
-      - 新加坡-2|直连|解锁|2x|TR
-      - 日本4|赣日隧道|原生|NF|×1.5
-      - 香港12|湘港隧道|原生|Disney+|×1
-      - 香港(绿头外网集团)(Public)
-      - 新加坡(绿头外网集团)(Public)
-      - 标准|西雅图02原生|H179
-      - 香港13|广港隧道|原生|×1
-      - 日本3|湘日隧道|原生|NF|×0.5
-      - 新加坡(绿头外网集团)(Public) 2
-      - 专线|香港02解锁|H528
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - 香港|08|流解
-      - 台湾1|广港隧道|原生|NF|×1
-      - 台湾(绿头外网集团)(Public)
-      - 标准|德国01标准|H515
-      - 标准|德国02标准|H516
-      - 美国3|原生|NF|×0.3
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港(绿头外网集团)(Public) 2
-      - 美国1|湘港隧道|原生|NF|×1
-      - HK Native 05
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public)
-      - 美国4|湘日隧道|原生|NF|×1
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 美国_YouTube：8度科技
-      - 台湾(绿头外网集团)(Public) 2
-      - 标准|俄罗斯02原生|H602
-      - 专线|香港03原生|H153
+      - CN_二爷免费翻墙网https://1808.ga_64
       - 香港14|湘港隧道|原生|Disney+|×1
+      - 香港|10x|GAME|BGP|广港专线
+      - 香港5|湘港隧道|原生|×1
+      - CN_二爷免费翻墙网https://1808.ga_15
+      - 新加坡4|广港隧道|×0.6
+      - CN_二爷免费翻墙网https://1808.ga_31
+      - 日本6|赣日隧道|原生|NF|×0.5
+      - CN_二爷免费翻墙网https://1808.ga_32
+      - HK Native 03
+      - 香港2|广港隧道|原生|NF|×1
+      - CN_二爷免费翻墙网https://1808.ga_55
+      - 新加坡阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_60
+      - 新加坡2-三网优化
+      - 香港13|广港隧道|原生|×1
+      - 香港3|广港隧道|原生|×1
+      - 香港11|广港隧道|原生|×1
+      - 香港10|湘港隧道|原生|×1
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - CN_二爷免费翻墙网https://1808.ga_40
+      - HK Native 05
+      - 美国3|原生|NF|×0.3
+      - 香港9|长沙入口|原生|×1
+      - 新加坡2-三网优化 2
+      - HK Native 06
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - SG Native 05
+      - CN_二爷免费翻墙网https://1808.ga_21
+      - 美国1|湘港隧道|原生|NF|×1
+      - 美国(绿头外网集团)(Public)
+      - CN_二爷免费翻墙网https://1808.ga_30
+      - CN_二爷免费翻墙网https://1808.ga_38
+      - 新加坡1-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_57
+      - 香港12|湘港隧道|原生|Disney+|×1
+      - 中国_YouTube：8度科技
+      - CN_二爷免费翻墙网https://1808.ga_209
+      - CN_二爷免费翻墙网https://1808.ga_53
+      - CN_二爷免费翻墙网https://1808.ga_228
+      - HK Native 01
+      - CN_二爷免费翻墙网https://1808.ga_210
+      - 美国4|湘日隧道|原生|NF|×1
+      - SG Native 02
       - 美国2|原生|去广告|NF|×0.3
-      - 韩国(绿头外网集团)(Public)
-      - 日本5|湘日隧道|原生|NF|×1.5
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public) 4
-      - 新加坡 |AS|1G|G7
-      - 台湾(绿头外网集团)(Public) 5
+      - 美国_TG@nodesharing_43
+      - 日本(绿头外网集团)(Public)
+      - HK Native 02
+      - CN_二爷免费翻墙网https://1808.ga_20
+      - 香港5-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_29
+      - 台湾1|广港隧道|原生|NF|×1
+      - 新加坡AWS|TCP80|轩赞助
+      - CN_二爷免费翻墙网https://1808.ga_36
+      - _03
+      - 台湾(绿头外网集团)(Public)
+      - HK5|10G|WS
+      - 台湾阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_229
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 基础|香港04解锁|H510
-      - 专线|新加坡01解锁|H529
-      - 基础|香港02解锁|H508
-      - 专线|新加坡02解锁|H530
-      - HK Native 06
-      - 日本1|杭州入口|原生|NF|×0.5
-      - 香港9|长沙入口|原生|×1
-      - HK Native 03
-      - HK Native 02
-      - 香港3|广港隧道|原生|×1
-      - 香港5|湘港隧道|原生|×1
-      - 香港10|湘港隧道|原生|×1
       - 新加坡2|湘港隧道|×0.8
-      - SG Native 05
-      - 日本6|赣日隧道|原生|NF|×0.5
-      - 香港|中转[广移]|3.5x|SS|TLS|低延迟
-      - 香港|10x|GAME|BGP|广港专线
-      - 香港11|广港隧道|原生|×1
-      - 日本(绿头外网集团)(Public)
-      - HK Native 01
-      - SG Native 02
-      - 新加坡4|广港隧道|×0.6
-      - 日本7|湘日隧道|原生|NF|×1
-      - 台湾3|湘港隧道|原生|NF|×1
-      - 新加坡-2|直连|解锁|2x|TR
-      - 日本4|赣日隧道|原生|NF|×1.5
-      - 香港12|湘港隧道|原生|Disney+|×1
-      - 香港(绿头外网集团)(Public)
-      - 新加坡(绿头外网集团)(Public)
-      - 标准|西雅图02原生|H179
-      - 香港13|广港隧道|原生|×1
-      - 日本3|湘日隧道|原生|NF|×0.5
-      - 新加坡(绿头外网集团)(Public) 2
-      - 专线|香港02解锁|H528
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - 香港|08|流解
-      - 台湾1|广港隧道|原生|NF|×1
-      - 台湾(绿头外网集团)(Public)
-      - 标准|德国01标准|H515
-      - 标准|德国02标准|H516
-      - 美国3|原生|NF|×0.3
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港(绿头外网集团)(Public) 2
-      - 美国1|湘港隧道|原生|NF|×1
-      - HK Native 05
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public)
-      - 美国4|湘日隧道|原生|NF|×1
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 美国_YouTube：8度科技
-      - 台湾(绿头外网集团)(Public) 2
-      - 标准|俄罗斯02原生|H602
-      - 专线|香港03原生|H153
+      - CN_二爷免费翻墙网https://1808.ga_64
       - 香港14|湘港隧道|原生|Disney+|×1
+      - 香港|10x|GAME|BGP|广港专线
+      - 香港5|湘港隧道|原生|×1
+      - CN_二爷免费翻墙网https://1808.ga_15
+      - 新加坡4|广港隧道|×0.6
+      - CN_二爷免费翻墙网https://1808.ga_31
+      - 日本6|赣日隧道|原生|NF|×0.5
+      - CN_二爷免费翻墙网https://1808.ga_32
+      - HK Native 03
+      - 香港2|广港隧道|原生|NF|×1
+      - CN_二爷免费翻墙网https://1808.ga_55
+      - 新加坡阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_60
+      - 新加坡2-三网优化
+      - 香港13|广港隧道|原生|×1
+      - 香港3|广港隧道|原生|×1
+      - 香港11|广港隧道|原生|×1
+      - 香港10|湘港隧道|原生|×1
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - CN_二爷免费翻墙网https://1808.ga_40
+      - HK Native 05
+      - 美国3|原生|NF|×0.3
+      - 香港9|长沙入口|原生|×1
+      - 新加坡2-三网优化 2
+      - HK Native 06
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - SG Native 05
+      - CN_二爷免费翻墙网https://1808.ga_21
+      - 美国1|湘港隧道|原生|NF|×1
+      - 美国(绿头外网集团)(Public)
+      - CN_二爷免费翻墙网https://1808.ga_30
+      - CN_二爷免费翻墙网https://1808.ga_38
+      - 新加坡1-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_57
+      - 香港12|湘港隧道|原生|Disney+|×1
+      - 中国_YouTube：8度科技
+      - CN_二爷免费翻墙网https://1808.ga_209
+      - CN_二爷免费翻墙网https://1808.ga_53
+      - CN_二爷免费翻墙网https://1808.ga_228
+      - HK Native 01
+      - CN_二爷免费翻墙网https://1808.ga_210
+      - 美国4|湘日隧道|原生|NF|×1
+      - SG Native 02
       - 美国2|原生|去广告|NF|×0.3
-      - 韩国(绿头外网集团)(Public)
-      - 日本5|湘日隧道|原生|NF|×1.5
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public) 4
-      - 新加坡 |AS|1G|G7
-      - 台湾(绿头外网集团)(Public) 5
+      - 美国_TG@nodesharing_43
+      - 日本(绿头外网集团)(Public)
+      - HK Native 02
+      - CN_二爷免费翻墙网https://1808.ga_20
+      - 香港5-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_29
+      - 台湾1|广港隧道|原生|NF|×1
+      - 新加坡AWS|TCP80|轩赞助
+      - CN_二爷免费翻墙网https://1808.ga_36
+      - _03
+      - 台湾(绿头外网集团)(Public)
+      - HK5|10G|WS
+      - 台湾阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_229
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -593,67 +574,66 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 基础|香港04解锁|H510
-      - 专线|新加坡01解锁|H529
-      - 基础|香港02解锁|H508
-      - 专线|新加坡02解锁|H530
-      - HK Native 06
-      - 日本1|杭州入口|原生|NF|×0.5
-      - 香港9|长沙入口|原生|×1
-      - HK Native 03
-      - HK Native 02
-      - 香港3|广港隧道|原生|×1
-      - 香港5|湘港隧道|原生|×1
-      - 香港10|湘港隧道|原生|×1
       - 新加坡2|湘港隧道|×0.8
-      - SG Native 05
-      - 日本6|赣日隧道|原生|NF|×0.5
-      - 香港|中转[广移]|3.5x|SS|TLS|低延迟
-      - 香港|10x|GAME|BGP|广港专线
-      - 香港11|广港隧道|原生|×1
-      - 日本(绿头外网集团)(Public)
-      - HK Native 01
-      - SG Native 02
-      - 新加坡4|广港隧道|×0.6
-      - 日本7|湘日隧道|原生|NF|×1
-      - 台湾3|湘港隧道|原生|NF|×1
-      - 新加坡-2|直连|解锁|2x|TR
-      - 日本4|赣日隧道|原生|NF|×1.5
-      - 香港12|湘港隧道|原生|Disney+|×1
-      - 香港(绿头外网集团)(Public)
-      - 新加坡(绿头外网集团)(Public)
-      - 标准|西雅图02原生|H179
-      - 香港13|广港隧道|原生|×1
-      - 日本3|湘日隧道|原生|NF|×0.5
-      - 新加坡(绿头外网集团)(Public) 2
-      - 专线|香港02解锁|H528
-      - 韩国1|杭州入口|原生|NF|×0.5
-      - 香港|08|流解
-      - 台湾1|广港隧道|原生|NF|×1
-      - 台湾(绿头外网集团)(Public)
-      - 标准|德国01标准|H515
-      - 标准|德国02标准|H516
-      - 美国3|原生|NF|×0.3
-      - 香港2|广港隧道|原生|NF|×1
-      - 香港(绿头外网集团)(Public) 2
-      - 美国1|湘港隧道|原生|NF|×1
-      - HK Native 05
-      - 新加坡(绿头外网集团)(Public) 3
-      - 美国(绿头外网集团)(Public)
-      - 美国4|湘日隧道|原生|NF|×1
-      - V1-香港 多台负载均衡 中继D | 1.5x
-      - 美国_YouTube：8度科技
-      - 台湾(绿头外网集团)(Public) 2
-      - 标准|俄罗斯02原生|H602
-      - 专线|香港03原生|H153
+      - CN_二爷免费翻墙网https://1808.ga_64
       - 香港14|湘港隧道|原生|Disney+|×1
+      - 香港|10x|GAME|BGP|广港专线
+      - 香港5|湘港隧道|原生|×1
+      - CN_二爷免费翻墙网https://1808.ga_15
+      - 新加坡4|广港隧道|×0.6
+      - CN_二爷免费翻墙网https://1808.ga_31
+      - 日本6|赣日隧道|原生|NF|×0.5
+      - CN_二爷免费翻墙网https://1808.ga_32
+      - HK Native 03
+      - 香港2|广港隧道|原生|NF|×1
+      - CN_二爷免费翻墙网https://1808.ga_55
+      - 新加坡阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_60
+      - 新加坡2-三网优化
+      - 香港13|广港隧道|原生|×1
+      - 香港3|广港隧道|原生|×1
+      - 香港11|广港隧道|原生|×1
+      - 香港10|湘港隧道|原生|×1
+      - V1-香港 多台负载均衡 中继D | 1.5x
+      - CN_二爷免费翻墙网https://1808.ga_40
+      - HK Native 05
+      - 美国3|原生|NF|×0.3
+      - 香港9|长沙入口|原生|×1
+      - 新加坡2-三网优化 2
+      - HK Native 06
+      - 日本4|赣日隧道|原生|NF|×1.5
+      - SG Native 05
+      - CN_二爷免费翻墙网https://1808.ga_21
+      - 美国1|湘港隧道|原生|NF|×1
+      - 美国(绿头外网集团)(Public)
+      - CN_二爷免费翻墙网https://1808.ga_30
+      - CN_二爷免费翻墙网https://1808.ga_38
+      - 新加坡1-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_57
+      - 香港12|湘港隧道|原生|Disney+|×1
+      - 中国_YouTube：8度科技
+      - CN_二爷免费翻墙网https://1808.ga_209
+      - CN_二爷免费翻墙网https://1808.ga_53
+      - CN_二爷免费翻墙网https://1808.ga_228
+      - HK Native 01
+      - CN_二爷免费翻墙网https://1808.ga_210
+      - 美国4|湘日隧道|原生|NF|×1
+      - SG Native 02
       - 美国2|原生|去广告|NF|×0.3
-      - 韩国(绿头外网集团)(Public)
-      - 日本5|湘日隧道|原生|NF|×1.5
-      - 台湾(绿头外网集团)(Public) 3
-      - 台湾(绿头外网集团)(Public) 4
-      - 新加坡 |AS|1G|G7
-      - 台湾(绿头外网集团)(Public) 5
+      - 美国_TG@nodesharing_43
+      - 日本(绿头外网集团)(Public)
+      - HK Native 02
+      - CN_二爷免费翻墙网https://1808.ga_20
+      - 香港5-三网优化
+      - CN_二爷免费翻墙网https://1808.ga_29
+      - 台湾1|广港隧道|原生|NF|×1
+      - 新加坡AWS|TCP80|轩赞助
+      - CN_二爷免费翻墙网https://1808.ga_36
+      - _03
+      - 台湾(绿头外网集团)(Public)
+      - HK5|10G|WS
+      - 台湾阿伟科技@TG/油管
+      - CN_二爷免费翻墙网https://1808.ga_229
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
